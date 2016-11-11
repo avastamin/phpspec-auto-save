@@ -1,0 +1,20 @@
+{
+  "name": "phpspec-auto-test",
+  "version": "1.0.0",
+  "description": "Phpspec autotest using Gulp",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-phpspec": "^0.5.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruhul Amin",
+  "license": "ISC"
+}
