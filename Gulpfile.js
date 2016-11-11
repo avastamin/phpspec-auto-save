@@ -12,3 +12,7 @@ gulp.task('test', function() {
         }))
         .pipe(notify('All Done!'))
 });
+
+gulp.task('watch',function () {
+    gulp.watch(['spec/**/*.php', 'src/**/*.php'],['test'])
+})
