@@ -9,7 +9,8 @@ gulp.task('test', function() {
         .pipe(phpspec('', { notify: true }))
         .on('error', notify.onError({
             title: 'Crap',
-            message: 'Test has been failed!'
+            message: 'Test has been failed!',
+            icon: __dirname +'/warning-icon.png'
         }))
         .pipe(notify('All Done!'))
 });
