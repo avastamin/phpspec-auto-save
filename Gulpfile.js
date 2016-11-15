@@ -10,7 +10,8 @@ gulp.task('test', function() {
         .on('error', notify.onError({
             title: 'Crap',
             message: 'Test has been failed!',
-            icon: __dirname +'/warning-icon.png'
+            icon: __dirname +'/warning-icon.png',
+            sound: 'Funk'
         }))
         .pipe(notify('All Done!'))
 });
